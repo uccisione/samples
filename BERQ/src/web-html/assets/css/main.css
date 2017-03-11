@@ -25,25 +25,180 @@ a {
 }
 
     .header .logo {
+        float: left;
+        margin-top: 30px;
     }
 
         .header .logo img {
         }
 
     .header .menu {
+        float: right;
+        margin: 33px 10px 0 0;
     }
 
         .header .menu a {
+            color: #fff;
+            margin-right: 45px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
         }
 
     .header .search-form {
+        float: right;
+        margin-top: 30px;
+        border: 1px solid #2c3042;
     }
 
         .header .search-form input {
+            background: transparent;
+            border: 0;
+            float: left;
         }
 
         .header .search-form i {
+            display: block;
+            width: 13px;
+            height: 14px;
+            background-image: url(../img/assets.png);
+            background-position: -8px -6px;
+            float: left;
+            margin: 5px 4px 0 0px;
         }
 
     .header .select-language {
+        float: right;
+        width: 60px;
+        height: 21px;
+        display: block;
+        margin: 32px 5px 0 47px;
+    }
+
+        .header .select-language span {
+            background-image: url('../img/assets.png');
+            background-position: -35px -6px;
+            width: 30px;
+            height: 18px;
+            display: block;
+            float: left;
+        }
+
+        .header .select-language i {
+            background-image: url('../img/assets.png');
+            float: left;
+            width: 9px;
+            height: 18px;
+            display: block;
+            margin: 7px 0 0px 10px;
+            background-position: -74px -12px;
+        }
+
+.banner {
+    position: relative;
+    height: 160px;
+    overflow: hidden;
+}
+
+    .banner img {
+        position: absolute;
+        top: 0px;
+        left: -50%;
+        right: -50%;
+        margin: 0 auto;
+    }
+
+.content {
+    margin: 20px auto 0px auto;
+    width: 1150px;
+}
+
+    .content .breadcrums {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #626262;
+    }
+
+        .content .breadcrums a {
+            opacity: 0.5;
+        }
+
+        .content .breadcrums .arrow {
+            background-image: url('../img/assets.png');
+            background-position: -94px -12px;
+            width: 4px;
+            height: 8px;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+    .content .girisbaslik h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 42px;
+    }
+
+    .content .altbaslik {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 57px 0 0 0;
+    }
+
+    .content .icerik1 {
+        width: 45%;
+        margin: 33px 0 0 0;
+        float: left;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .content .icerik2 {
+        width: 45%;
+        margin: 33px 0 0 0;
+        float: right;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .content .bilgi {
+        width: 33.3333%;
+        float: left;
+        padding-right: 100px;
+    }
+
+        .content .bilgi .headerbilgi {
+            margin: 25px 0 0 0;
+            overflow: hidden;
+        }
+
+            .content .bilgi .headerbilgi i {
+                background-image: url('../img/assets.png');
+                width: 40px;
+                height: 40px;
+                display: block;
+                float: left;
+            }
+
+            .content .bilgi .headerbilgi h6 {
+                float: left;
+                margin: 10px 0 0 10px;
+            }
+
+        .content .bilgi .bilgi-metni {
+            margin: 10px 0 0 0;
+        }
+
+    .content .bilgi1 .headerbilgi i {
+        background-position: -10px -33px;
+    }
+
+    .content .bilgi2 .headerbilgi i {
+        background-position: -70px -34px;
+    }
+
+    .content .bilgi3 .headerbilgi i {
+        background-position: -130px -34px;
     }
